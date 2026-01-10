@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">NutriKids</string>
+    <string name="default_web_client_id" translatable="false">100791316370-o3cm9igc1vn26ffkrpctbi3hli98ob60.apps.googleusercontent.com</string>
+    <string-array name="age_array">
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+    </string-array>
+
+    <string-array name="gender_array">
+        <item>Perempuan</item>
+        <item>Laki-laki</item>
+    </string-array>
+
+    <string-array name="food_preferences_array">
+        <item>Non-Vegetarian</item>
+        <item>Vegetarian</item>
+        <item>Vegan</item>
+    </string-array>
+
+    <string-array name="health_conditions_array">
+        <item>Sehat</item>
+        <item>Anemia</item>
+        <item>Hypertension</item>
+        <item>Diabetes</item>
+        <item>Obesity</item>
+    </string-array>
+</resources>

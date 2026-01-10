@@ -1,0 +1,44 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/status_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:padding="8dp"
+            android:layout_marginTop="12dp"/>
+
+        <TextView
+            android:id="@+id/title_recommendation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Foods Recommended for you"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/food_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"/>
+    </LinearLayout>
+</ScrollView>

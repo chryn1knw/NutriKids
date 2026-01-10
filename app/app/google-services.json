@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "100791316370",
+    "project_id": "nutrikids-4db1f",
+    "storage_bucket": "nutrikids-4db1f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:100791316370:android:c32124b60b7792bf6a5b4b",
+        "android_client_info": {
+          "package_name": "C242.PS248"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "100791316370-7fqg76rk46v4n48r4ca9n759dabjumbm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "C242.PS248",
+            "certificate_hash": "f74d640daa120b1c5151ad858e38e73535eafe0e"
+          }
+        },
+        {
+          "client_id": "100791316370-o3cm9igc1vn26ffkrpctbi3hli98ob60.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCi1WKqgTor-G0fLVcxOSsDjSbM7P6Qv4s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "100791316370-o3cm9igc1vn26ffkrpctbi3hli98ob60.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
