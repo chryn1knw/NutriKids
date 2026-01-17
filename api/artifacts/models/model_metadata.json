@@ -1,0 +1,16 @@
+{
+    "model_name": "SVM",
+    "model_type": "sklearn.pipeline.Pipeline",
+    "pipeline_steps": [
+        {
+            "name": "scaler",
+            "type": "StandardScaler"
+        },
+        {
+            "name": "svm",
+            "type": "SVC"
+        }
+    ],
+    "balanced_accuracy": 0.9849550417469493,
+    "input_features": 7
+}
