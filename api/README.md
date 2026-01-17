@@ -2,8 +2,8 @@
 
 ```
 # Clone repository
-git clone https://github.com/chryn1knw/NutriKids-API.git
-cd NutriKids-API
+git clone https://github.com/chryn1knw/NutriKids.git
+cd NutriKids/api
 
 # Buat virtual environment
 python -m venv .venv
