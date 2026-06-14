@@ -20,6 +20,7 @@ NutriKids adalah aplikasi Android yang membantu memantau dan memprediksi status 
 ---
 
 ## 🏗️ Struktur Proyek
+```
 NutriKids/
 ├── app/                  # Aplikasi Android (Kotlin)
 │   └── app/
@@ -33,9 +34,8 @@ NutriKids/
 │   └── README.md
 │
 └── model/                # Notebook pelatihan model
-└── Classification.ipynb
-
-
+    └── Classification.ipynb
+```
 ---
 
 ## 🚀 Cara Menjalankan
@@ -61,6 +61,7 @@ pip install -r requirements.txt
 
 # Jalankan API
 python src/main.py
+```
 
 📄 Lisensi
 Proyek ini dibuat untuk keperluan kuliah.
